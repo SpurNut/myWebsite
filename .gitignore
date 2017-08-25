@@ -1,1 +1,5 @@
+img/*
+!img
+!img/thumbnail
+img/thumbnail/*
 .DS_Store

@@ -73,6 +73,10 @@ header a:hover{
   margin: 7% 3% 7% 3%;
 }
 
+.link_to_person{
+  color: #000000;
+}
+
 footer{
   padding:20px;
   margin-top:20px;
