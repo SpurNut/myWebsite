@@ -77,9 +77,47 @@ header a:hover{
   color: #000000;
 }
 
+.wrapper{
+  max-width: 1200px;
+  margin: 0 auto;
+
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  width: auto;
+}
+
+.one-fifth {
+  width: 21%;
+  float: left;
+  margin: 2% 2% 2% 2%;
+}
+
+img:hover {
+  filter: brightness(117%);
+}
+
+@media screen and (max-width: 768px){
+  .one-fifth{
+    width: 46%;
+  }
+}
+
+.clearfix{
+   clear:both;
+}
+
+#about{
+  margin: 3%;
+  padding: 3%;
+}
+
 footer{
   padding:20px;
-  margin-top:20px;
+  margin-top:3%;
   color:#ffffff;
   background-color:#2E1805;
   text-align: center;
