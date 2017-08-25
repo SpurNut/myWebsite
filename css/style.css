@@ -115,6 +115,11 @@ img:hover {
   padding: 3%;
 }
 
+#mailto{
+  color: #000000;
+  text-transform: uppercase;
+}
+
 footer{
   padding:20px;
   margin-top:3%;
